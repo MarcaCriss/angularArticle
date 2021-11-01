@@ -1,0 +1,88 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 50px;
+  width: 720px;
+  height: 237px;
+}
+
+.article .content h2 {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+.article .content .description {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+}
+
+.article .dranwers {
+  height: auto;
+  width: 295px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.content {
+  padding: 8px 40px 5px 40px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+  padding: 7px 0px;
+}
+
+.user {
+  border-radius: 100%;
+  height: 35px;
+}
+.profile {
+  display: flex;
+}
+
+.profile .date {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.card-user .profile .username{
+  margin-top: 0;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.card-user .profile .date {
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+.card-user .share {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.card-user .share img {
+  background-color: hsl(210, 46%, 95%);
+  padding: 6px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 375px) {
+  .article {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.google.com/specimen/Manrope');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope';
+}
